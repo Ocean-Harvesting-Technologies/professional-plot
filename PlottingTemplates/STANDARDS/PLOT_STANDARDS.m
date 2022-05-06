@@ -151,7 +151,13 @@ function PS = PLOT_STANDARDS()
     PS.Purple3 = [40, 55, 71]./255;
     PS.Purple4 = [28, 40, 51]./255;
     PS.Purple5 = [23, 32, 42]./255;
-      
+    
+    % OHT COLOR PALETTE
+    PS.OhtDarkBlue = [13, 74, 101]./255;
+    PS.OhtLightBlue = [8, 200, 241]./255;
+    PS.OhtDarkGrey = [182, 192, 198]./255;
+    PS.OhtLightGrey = [240, 240, 240]./255;
+    PS.OhtOrange = [240, 132, 5]./255;     
     
     %========================================================
     % LINE AND MARKER PROPERTIES
@@ -193,10 +199,10 @@ function PS = PLOT_STANDARDS()
 
     % Small
     PS.save_small_TitleFontSize = 18;
-    PS.save_small_LegendFontSize = 7;
+    PS.save_small_LegendFontSize = 12; %
     PS.save_small_AxisFontSize = 14;
     PS.save_small_PlotTextFontSize = 10;
-    PS.save_small_AxisNumbersFontSize = 8;
+    PS.save_small_AxisNumbersFontSize = 12; %
     
    
     % TILED SAVE
